@@ -1,0 +1,36 @@
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #89f442;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  background-color: #41f4cd;
+  width: 70%;
+}
+
+.side {
+  background-color: #417ff4;
+  width: 30%;
+}
+
+.footer {
+  background-color: #f441be;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .main,
+  .side {
+    width: 100%;
+  }
+}

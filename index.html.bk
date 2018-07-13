@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/stylesheets/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>tabtt3のHOME</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-nav">
+        <nav class="nav">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <div>
+                <a href="https://github.com/tabtt3">
+                  <img src="./src/img/GitHub-Mark-32px.png">
+                </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div>
+                <a href="https://github.com/tabtt3">
+                  <img src="./src/img/GitHub-Mark-32px.png">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <img src="./src/img/onsen.jpg" alt="温泉" class="main-img">
+      </div>
+
+      <div class="my-favorites">
+        <div>温泉に行きたい</div>
+      </div>
+
+      <div>
+        <h3 class="contents-title">日本の温泉</h3>
+      </div>
+
+      <div class="japan-map">
+        <img src="./src/img/japan.png" alt="日本">
+      </div>
+
+    </main>
+
+  </body>
+</html>
