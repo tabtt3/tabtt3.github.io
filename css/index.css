@@ -1,24 +1,22 @@
 .wrapper {
-  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .header {
   background-color: #89f442;
+  height: 60px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .container {
-  display: flex;
 }
 
 .main {
   background-color: #41f4cd;
-  width: 70%;
-}
-
-.side {
-  background-color: #417ff4;
-  width: 30%;
 }
 
 .footer {
