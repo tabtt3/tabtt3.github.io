@@ -12,31 +12,31 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">
+            <nuxt-link to="/skill">
               <div class="top-menu-item">
-                <span class="top-menu-item-main">Company</span>
-                <span class="top-menu-item-supplement">会社概要</span>
+                <span class="top-menu-item-main">Skill</span>
+                <span class="top-menu-item-supplement">スキル</span>
               </div>
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">
+            <nuxt-link to="/history">
               <div class="top-menu-item">
-                <span class="top-menu-item-main">Service</span>
-                <span class="top-menu-item-supplement">サービス案内</span>
+                <span class="top-menu-item-main">History</span>
+                <span class="top-menu-item-supplement">経歴</span>
               </div>
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">
+            <nuxt-link to="/history">
               <div class="top-menu-item">
-                <span class="top-menu-item-main">Recuit</span>
-                <span class="top-menu-item-supplement">採用情報</span>
+                <span class="top-menu-item-main">Blog</span>
+                <span class="top-menu-item-supplement">ブログ</span>
               </div>
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">
+            <nuxt-link to="/contact">
               <div class="top-menu-item">
                 <span class="top-menu-item-main">Contact</span>
                 <span class="top-menu-item-supplement">問い合わせ</span>
@@ -50,8 +50,6 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
 }
 </script>
@@ -69,6 +67,10 @@ export default {
   line-height: 1;
   text-align: center;
   padding-top: 60px;
+}
+
+.top-menu-item:hover {
+  color: #ccc;
 }
 
 .top-menu-item-main {

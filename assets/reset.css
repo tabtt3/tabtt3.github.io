@@ -1,4 +1,9 @@
+body {
+  margin-top: 50px;
+}
+
 a {
+  color: #272727;
   text-decoration: none;
 }
 

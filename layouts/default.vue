@@ -4,6 +4,16 @@
   </div>
 </template>
 
+<script>
+import DefaultHeader from '~/components/DefaultHeader'
+
+export default {
+  components: {
+    DefaultHeader
+  }
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
