@@ -38,3 +38,6 @@ jobs:
       - name: install npm packages
         run: yarn install
 
+      - name: build project
+        run: yarn run build
+
