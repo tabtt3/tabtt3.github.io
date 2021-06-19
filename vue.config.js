@@ -1,5 +1,5 @@
 // vue.config.js
 module.exports = {
-  publicPath: '/project-name/',
+  publicPath: './pulbic',
   outputDir: 'docs'
 }
